@@ -98,6 +98,11 @@ a {
   width: 100%;
   background-image: linear-gradient(to left, rgb(43, 25, 48), black);
   padding: 2rem;
+  transition: background-image 3s;
+}
+
+.footerClass:hover {
+  background-image: linear-gradient(to right, rgb(43, 25, 48), black);
 }
 
 footer p {

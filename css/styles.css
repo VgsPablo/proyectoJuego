@@ -94,9 +94,9 @@ a {
 }
 
 /* FOOTER */
-footer {
+.footerClass {
   width: 100%;
-  background-color: rgb(43, 25, 48);
+  background-image: linear-gradient(to right, rgb(43, 25, 48), black);
   padding: 2rem;
 }
 

@@ -8,6 +8,10 @@ html{
 }
 body{
     background-color: rgb(225, 225, 225);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  
 }
 .headerNav{
     width: 100%;
@@ -51,10 +55,10 @@ a{
     
 }
 
-.banner{
-    width: 100%;
+.banner img{
+    width: 220vh;
     height: 100%;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 /* PAGINA PRINCIPAL */
@@ -105,14 +109,15 @@ a{
 
 /* FOOTER */
 .footerClass{
-    width: 100%;
     background-image: linear-gradient(to left,rgb(43, 25, 48), black );
     padding: 2rem;
-<<<<<<< HEAD
+    width: 100%;
+  
+
     
 }
 
-=======
+.footerClass:hover{
     transition: background-image 3s;
     
 }
@@ -121,12 +126,48 @@ a{
     background-image: linear-gradient(to right,rgb(43, 25, 48), black );
 }
 
->>>>>>> RamaAnimacion
+
 footer p{
     font-size: large;
     font-weight: 300;
     color: aliceblue;
 }
+
+/* JUEGO DE LA SEMANA */
+
+.bodySemana{
+
+    font-size: large;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.imgWeekgame{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.imgWeekgame div img{
+
+    width: 100%;
+    padding: 10px;
+
+}
+
+
 
 /* SECCION MULTIPLAYER */
 
@@ -235,6 +276,101 @@ footer p{
     "infoLol";
 }
 
+/* SECCION SINGLE PLAYER */
+
+.sectionSingleplayer div p{
+
+    font-size: large;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+
+.sectionSingleplayer div img{
+
+    width: 100%;
+    
+}
+
+.skyrim{
+    grid-area: tituloSkyrim;
+}
+
+.skyrim_img{
+    grid-area: imgSkyrim;
+}
+
+.skyrim_info{
+    grid-area: infoSkyrim;
+}
+
+.massEffectandromeda{
+    grid-area: tituloMasseffectandromeda;
+}
+
+.massEffectandromeda_img{
+    grid-area: imgMasseffectandromeda;
+}
+
+.massEffectandromeda_info{
+    grid-area: infoMasseffectandromeda;
+}
+
+.guitarHero{
+    grid-area: tituloGuitarhero;
+}
+
+.guitarHero_img{
+    grid-area: imgGuitarhero;
+}
+
+.guitarHero_info{
+    grid-area: infoGuitarhero;
+}
+
+.acValhalla{
+    grid-area: tituloAcvalhalla;
+}
+
+.acValhalla_img{
+    grid-area: imgAcvalhalla;
+}
+
+.acValhalla_info{
+    grid-area: infoAcvalhalla;
+}
+
+.sectionSingleplayer{
+    padding: 0 1rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 2rem;
+    grid-template-areas: 
+    
+    "tituloSkyrim"
+    "imgSkyrim"
+    "infoSkyrim"
+    "tituloMasseffectandromeda"
+    "imgMasseffectandromeda"
+    "infoMasseffectandromeda"
+    "tituloGuitarhero"
+    "imgGuitarhero"
+    "infoGuitarhero"
+    "tituloAcvalhalla"
+    "imgAcvalhalla"
+    "infoAcvalhalla"
+
+}
+
+
+
+/* MEDIA QUERIS  */
+
 @media screen and (min-width: 600px){
 
     .headerNav{
@@ -298,6 +434,31 @@ header ul{
         "tituloLol       tituloLol"
         "imgLol          infoLol";
         }
+
+    .sectionSingleplayer{
+        padding: 0 1rem;
+        margin: 1rem 0 3rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5rem auto;
+        gap: 2rem;
+        grid-template-areas: 
+        "tituloSkyrim               tituloSkyrim"
+        "imgSkyrim                  infoSkyrim"
+        "imgSkyrim                  infoSkyrim"
+        "tituloMasseffectandromeda  tituloMasseffectandromeda"
+        "imgMasseffectandromeda     infoMasseffectandromeda"
+        "imgMasseffectandromeda     infoMasseffectandromeda"
+        "tituloGuitarhero           tituloGuitarhero"
+        "imgGuitarhero              infoGuitarhero"
+        "imgGuitarhero              infoGuitarhero"
+        "tituloAcvalhalla           tituloAcvalhalla"
+        "imgAcvalhalla              infoAcvalhalla"
+        "imgAcvalhalla              infoAcvalhalla"
+
+
+    }    
+
 
 }
 

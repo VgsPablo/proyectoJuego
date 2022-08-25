@@ -1,0 +1,113 @@
+/* SECCION MULTIPLAYER */
+
+.sectionMultiplayer div{
+    p{font-size: large;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: $colortitulos;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: $fondotitulos;
+}
+    
+    img{
+    width: 100%;
+}
+}
+
+
+.gamesInfo{
+    font-size: larger;
+    font-family: sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+
+
+}
+
+.rocketLeague{
+    grid-area: tituloRocket;
+}
+
+.rocketLeague_img{
+    grid-area: imgRocket;
+}
+
+.rocketLeague_info{
+    grid-area: infoRocket;
+}
+
+.fortnite{
+    grid-area: tituloFortnite;
+}
+
+.fortniteImg{
+    grid-area: imgFortnite;
+}
+
+.fortniteInfo{
+    grid-area: infoFortnite;
+}
+
+.minecraft{
+    grid-area: tituloMinecraft;
+}
+
+.minecraftImg{
+    grid-area: imgMinecraft;
+}
+
+.minecraftInfo{
+    grid-area: infoMinecraft;
+}
+
+.fifa{
+    grid-area: tituloFifa;
+}
+
+.fifaImg{
+    grid-area: imgFifa;
+}
+
+.fifaInfo{
+    grid-area: infoFifa;
+}
+
+.lol{
+    grid-area: tituloLol;
+}
+
+.lolImg{
+    grid-area: imgLol;
+}
+
+.lolInfo{
+    grid-area: infoLol;
+}
+
+
+
+.sectionMultiplayer{
+    padding: 0 1rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 2rem;
+    grid-template-areas: 
+    "tituloRocket"
+    "imgRocket"
+    "infoRocket"
+    "tituloFortnite"
+    "imgFortnite"
+    "infoFortnite"
+    "tituloMinecraft"
+    "imgMinecraft"
+    "infoMinecraft"
+    "tituloFifa"
+    "imgFifa"
+    "infoFifa"
+    "tituloLol"
+    "imgLol"
+    "infoLol";
+}

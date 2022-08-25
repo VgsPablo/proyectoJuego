@@ -1,0 +1,35 @@
+/* JUEGO DE LA SEMANA */
+
+.bodySemana{
+
+    font-size: large;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.imgWeekgame{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.imgWeekgame div img{
+
+    width: 100%;
+    padding: 10px;
+
+}
+
+

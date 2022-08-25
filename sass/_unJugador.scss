@@ -1,0 +1,96 @@
+/* SECCION SINGLE PLAYER */
+
+.sectionSingleplayer div{
+
+    p{
+        font-size: large;
+        font-weight: 300;
+        font-family: sans-serif;
+        color: $colortitulos;
+        margin: 1rem;
+        padding: 0.5rem;
+        background-color: $fondotitulos;
+    
+    }
+
+    img{
+
+        width: 100%;
+        
+    }
+}
+
+
+.skyrim{
+    grid-area: tituloSkyrim;
+}
+
+.skyrim_img{
+    grid-area: imgSkyrim;
+}
+
+.skyrim_info{
+    grid-area: infoSkyrim;
+}
+
+.massEffectandromeda{
+    grid-area: tituloMasseffectandromeda;
+}
+
+.massEffectandromeda_img{
+    grid-area: imgMasseffectandromeda;
+}
+
+.massEffectandromeda_info{
+    grid-area: infoMasseffectandromeda;
+}
+
+.guitarHero{
+    grid-area: tituloGuitarhero;
+}
+
+.guitarHero_img{
+    grid-area: imgGuitarhero;
+}
+
+.guitarHero_info{
+    grid-area: infoGuitarhero;
+}
+
+.acValhalla{
+    grid-area: tituloAcvalhalla;
+}
+
+.acValhalla_img{
+    grid-area: imgAcvalhalla;
+}
+
+.acValhalla_info{
+    grid-area: infoAcvalhalla;
+}
+
+.sectionSingleplayer{
+    padding: 0 1rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 2rem;
+    grid-template-areas: 
+    
+    "tituloSkyrim"
+    "imgSkyrim"
+    "infoSkyrim"
+    "tituloMasseffectandromeda"
+    "imgMasseffectandromeda"
+    "infoMasseffectandromeda"
+    "tituloGuitarhero"
+    "imgGuitarhero"
+    "infoGuitarhero"
+    "tituloAcvalhalla"
+    "imgAcvalhalla"
+    "infoAcvalhalla"
+
+}
+
+

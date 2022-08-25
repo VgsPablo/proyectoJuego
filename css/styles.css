@@ -1,67 +1,8 @@
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background-color: rgb(225, 225, 225);
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
-}
-
-.headerNav {
-  width: 100%;
-  height: 70vh;
-  background-color: rgb(43, 25, 48);
-  border: solid 5px rgb(0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 0;
-  padding-bottom: 1rem;
-}
-
-header nav {
-  height: 100%;
-  margin-top: 2rem;
-}
-
-header ul {
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-li {
-  list-style: none;
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 500;
-  font-family: sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.banner img {
-  width: 220vh;
-  height: 100%;
-  margin: 0;
-}
-
 /* PAGINA PRINCIPAL */
 .tituloIndex {
   width: 100%;
   height: 100%;
+  margin: 50px solid red;
 }
 
 .infoIndex {
@@ -146,11 +87,11 @@ footer p {
   font-size: large;
   font-weight: 300;
   font-family: sans-serif;
-  color: black;
+  color: rgb(31, 0, 49);
   margin: 1rem;
   padding: 0.5rem;
+  background-color: rgb(190, 190, 190);
 }
-
 .sectionMultiplayer div img {
   width: 100%;
 }
@@ -158,6 +99,8 @@ footer p {
 .gamesInfo {
   font-size: larger;
   font-family: sans-serif;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .rocketLeague {
@@ -235,11 +178,11 @@ footer p {
   font-size: large;
   font-weight: 300;
   font-family: sans-serif;
-  color: black;
+  color: rgb(31, 0, 49);
   margin: 1rem;
   padding: 0.5rem;
+  background-color: rgb(190, 190, 190);
 }
-
 .sectionSingleplayer div img {
   width: 100%;
 }
@@ -353,4 +296,56 @@ footer p {
     gap: 2rem;
     grid-template-areas: "tituloSkyrim               tituloSkyrim" "imgSkyrim                  infoSkyrim" "imgSkyrim                  infoSkyrim" "tituloMasseffectandromeda  tituloMasseffectandromeda" "imgMasseffectandromeda     infoMasseffectandromeda" "imgMasseffectandromeda     infoMasseffectandromeda" "tituloGuitarhero           tituloGuitarhero" "imgGuitarhero              infoGuitarhero" "imgGuitarhero              infoGuitarhero" "tituloAcvalhalla           tituloAcvalhalla" "imgAcvalhalla              infoAcvalhalla" "imgAcvalhalla              infoAcvalhalla";
   }
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(225, 225, 225);
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.headerNav {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(43, 25, 48);
+  border: solid 5px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+header nav {
+  height: 100%;
+  margin-top: 2rem;
+}
+header ul {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,6 @@
 /* JUEGO DE LA SEMANA */
 
 .bodySemana{
-
     font-size: large;
     font-weight: 300;
     font-family: sans-serif;
@@ -11,25 +10,26 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    div{
+        h2{
+            background-color: $fondotitulos;
+            font-size: larger;
+        }
+        h3{
+            @include sizes (10px, 0 15% 0 15%)
+        }
+    }
 }
 
 .imgWeekgame{
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-
-
-
 .imgWeekgame div img{
-
     width: 100%;
     padding: 10px;
-
 }
 
 

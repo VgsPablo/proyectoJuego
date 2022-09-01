@@ -1,22 +1,9 @@
 /* SECCION SINGLE PLAYER */
 
 .sectionSingleplayer div{
-
-    p{
-        font-size: large;
-        font-weight: 300;
-        font-family: sans-serif;
-        color: $colortitulos;
-        margin: 1rem;
-        padding: 0.5rem;
-        background-color: $fondotitulos;
-    
-    }
-
+    @extend .titulosJuegos;
     img{
-
-        width: 100%;
-        
+        width: 100%;  
     }
 }
 

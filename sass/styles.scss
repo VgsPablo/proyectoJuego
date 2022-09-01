@@ -9,7 +9,6 @@ $colortitulos: rgb(31, 0, 49);
 @import "unJugador";
 @import "mediaQueris";
 
-
 * {
     padding: 0%;
     margin: 0%;
@@ -71,6 +70,20 @@ a{
     
 }
 
+.titulosJuegos{
+    font-size: large;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: $colortitulos;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: $fondotitulos;
+}
+
+@mixin sizes ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
 
 
 

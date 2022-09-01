@@ -1,28 +1,18 @@
 /* SECCION MULTIPLAYER */
 
 .sectionMultiplayer div{
-    p{font-size: large;
-    font-weight: 300;
-    font-family: sans-serif;
-    color: $colortitulos;
-    margin: 1rem;
-    padding: 0.5rem;
-    background-color: $fondotitulos;
-}
+    @extend .titulosJuegos;
     
     img{
     width: 100%;
 }
 }
 
-
 .gamesInfo{
     font-size: larger;
     font-family: sans-serif;
     margin: 1rem;
     padding: 1rem;
-
-
 }
 
 .rocketLeague{
@@ -84,8 +74,6 @@
 .lolInfo{
     grid-area: infoLol;
 }
-
-
 
 .sectionMultiplayer{
     padding: 0 1rem;

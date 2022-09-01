@@ -3,17 +3,12 @@
 .tituloIndex{
     width: 100%;
     height: 100%;
-    margin: 50px solid red;
-
 }
 
 .infoIndex{
     width: 100%;
     height: 100%;
-
 }
-
-
 
 .pruebaCarousel{
     grid-area: imgCarousel;
@@ -43,4 +38,8 @@
        "tituloInicial"
        "infoBasic";
     justify-items: center;
+
+    div img{
+        width: 100%;
+    }
 }

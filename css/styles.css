@@ -2,7 +2,6 @@
 .tituloIndex {
   width: 100%;
   height: 100%;
-  margin: 50px solid red;
 }
 
 .infoIndex {
@@ -35,6 +34,9 @@
   gap: 2rem;
   grid-template-areas: "imgCarousel" "tituloInicial" "infoBasic";
   justify-items: center;
+}
+.cuerpo div img {
+  width: 100%;
 }
 
 /* FOOTER */
@@ -70,6 +72,14 @@ footer p {
   flex-direction: column;
   text-align: center;
 }
+.bodySemana div h2 {
+  background-color: rgb(190, 190, 190);
+  font-size: larger;
+}
+.bodySemana div h3 {
+  margin: 10px;
+  padding: 0 15% 0 15%;
+}
 
 .imgWeekgame {
   display: flex;
@@ -83,15 +93,6 @@ footer p {
 }
 
 /* SECCION MULTIPLAYER */
-.sectionMultiplayer div p {
-  font-size: large;
-  font-weight: 300;
-  font-family: sans-serif;
-  color: rgb(31, 0, 49);
-  margin: 1rem;
-  padding: 0.5rem;
-  background-color: rgb(190, 190, 190);
-}
 .sectionMultiplayer div img {
   width: 100%;
 }
@@ -174,15 +175,6 @@ footer p {
 }
 
 /* SECCION SINGLE PLAYER */
-.sectionSingleplayer div p {
-  font-size: large;
-  font-weight: 300;
-  font-family: sans-serif;
-  color: rgb(31, 0, 49);
-  margin: 1rem;
-  padding: 0.5rem;
-  background-color: rgb(190, 190, 190);
-}
 .sectionSingleplayer div img {
   width: 100%;
 }
@@ -348,4 +340,14 @@ li {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.titulosJuegos, .sectionMultiplayer div, .sectionSingleplayer div {
+  font-size: large;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(31, 0, 49);
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(190, 190, 190);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,6 @@
-$fondoweb: rgb(225, 225, 225);
-$fondotitulos: rgb(190, 190, 190);
-$colortitulos: rgb(31, 0, 49);
+$fondoweb: rgb(36, 36, 36);
+$colortitulos: rgb(190, 190, 190);
+$fondotitulos: rgb(23, 0, 36);
 
 @import "paginaPrincipal";
 @import "footer";
@@ -71,13 +71,14 @@ a{
 }
 
 .titulosJuegos{
-    font-size: large;
+    font-size: medium;
     font-weight: 300;
     font-family: sans-serif;
     color: $colortitulos;
     margin: 1rem;
     padding: 0.5rem;
     background-color: $fondotitulos;
+    border-radius: 3%;
 }
 
 @mixin sizes ($margin, $padding){

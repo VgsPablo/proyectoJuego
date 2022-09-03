@@ -10,55 +10,85 @@
 </head>
 <body>
    <!-- BARRA DE NAVEGACION -->
-   
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">Que Juego</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./Multiplayer.html">Multijugador</a>
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Multiplayer.html">Multijugador</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./singlePlayer.html">Un Jugador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./weekGame.html">Juego de la semana</a>
+            <a class="nav-link" href="./weekGame.html">Juego semanal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contacto.html">Contacto</a>
           </li>
         </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
     <!-- CUERPO DE PAGINA -->
     
-    <div>
-    
-      <div class="tituloContacto">
-         <h1>Contanos tu experiencia y sugerencias</h1>
-      </div>
-    
-      <section>
-          <article>
-              <form>
-                  <label for="nombre_apellido">Nombre</label>
-                  <input type=" text" name="nombre_apellido"/><br>
-                  <label for="edad">Edad</label>
-                  <input type="number" name="edad"><br>
-                  <label for="sugerencias">Sugerencias</label><br>
-                  <textarea name="sugerencias" id="" cols="30" rows="10"></textarea><br>
-                  <input type="submit" value="Enviar">
-                  <input type="reset" value="Borrar">
-              </form>
-          </article>
-      </section>
-
-    </div>
+    <section class="bodyform">
+      <div class="content">
+        <div class="container">
+        <div class="row align-items-stretch justify-content-center no-gutters">
+        <div class="col-md-7">
+        <div class="form h-100 contact-wrap p-5">
+        <h1 class="text-center">Contanos tu experiencia</h1>
+        <form class="mb-5" method="post" id="contactForm" name="contactForm">
+        <div class="row">
+        <div class="col-md-6 form-group mb-3">
+        <label for="" class="col-form-label">Nombre</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="col-md-6 form-group mb-3">
+        <label for="" class="col-form-label">Email</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Tu email">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 form-group mb-3">
+        <label for="budget" class="col-form-label">Tema</label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Tu tema">
+        </div>
+        </div>
+        <div class="row mb-5">
+        <div class="col-md-12 form-group mb-3">
+        <label for="message" class="col-form-label">Mensaje</label>
+        <textarea class="form-control" name="message" id="message" cols="30" rows="4" placeholder="Escribi tu mensaje"></textarea>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-md-5 form-group text-center">
+        <input type="submit" value="Enviar" class="btn btn-block btn-primary rounded-0 py-2 px-4">
+        <span class="submitting"></span>
+        </div>
+        </div>
+        </form>
+        <div id="form-message-warning mt-4"></div>
+        <div id="form-message-success">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
 
       <footer class="footerClass">
           <img src="../images/icons8-gaming-64.png" alt="joystick"><p>Que Juego</p>

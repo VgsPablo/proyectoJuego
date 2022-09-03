@@ -1,14 +1,4 @@
 /* PAGINA PRINCIPAL */
-.tituloIndex {
-  width: 100%;
-  height: 100%;
-}
-
-.infoIndex {
-  width: 100%;
-  height: 100%;
-}
-
 .pruebaCarousel {
   grid-area: imgCarousel;
 }
@@ -21,10 +11,6 @@
   grid-area: infoBasic;
 }
 
-.pruebaCarousel img {
-  width: 100%;
-}
-
 .cuerpo {
   padding: 0 1rem;
   margin: 1rem 0;
@@ -34,9 +20,37 @@
   gap: 2rem;
   grid-template-areas: "imgCarousel" "tituloInicial" "infoBasic";
   justify-items: center;
+  text-align: center;
 }
 .cuerpo div img {
   width: 100%;
+  height: 100%;
+}
+.cuerpo h1 {
+  font-size: xx-large;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(190, 190, 190);
+  background-color: rgb(23, 0, 36);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 3%;
+  padding: 2%;
+}
+.cuerpo h2 {
+  font-size: large;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(190, 190, 190);
+  background-color: rgb(23, 0, 36);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 3%;
+  padding: 5%;
 }
 
 /* FOOTER */
@@ -72,13 +86,41 @@ footer p {
   flex-direction: column;
   text-align: center;
 }
-.bodySemana div h2 {
-  background-color: rgb(190, 190, 190);
+.bodySemana div h1 {
+  background-color: rgb(23, 0, 36);
   font-size: larger;
+  color: rgb(190, 190, 190);
+  border-radius: 2%;
+  padding: 1%;
+}
+.bodySemana div h2 {
+  background-color: rgb(23, 0, 36);
+  font-size: larger;
+  color: rgb(190, 190, 190);
+  border-radius: 2%;
+  padding: 1%;
 }
 .bodySemana div h3 {
   margin: 10px;
-  padding: 0 15% 0 15%;
+  padding: 0% 15% 0% 15%;
+  font-size: large;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(190, 190, 190);
+  background-color: rgb(23, 0, 36);
+  border-radius: 2%;
+  padding: 2%;
+}
+.bodySemana div h4 {
+  margin: 10px;
+  padding: 0% 15% 0% 15%;
+  font-size: large;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(190, 190, 190);
+  background-color: rgb(23, 0, 36);
+  border-radius: 2%;
+  padding: 2%;
 }
 
 .imgWeekgame {
@@ -300,7 +342,7 @@ html {
 }
 
 body {
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(36, 36, 36);
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
@@ -343,11 +385,12 @@ a {
 }
 
 .titulosJuegos, .sectionMultiplayer div, .sectionSingleplayer div {
-  font-size: large;
+  font-size: medium;
   font-weight: 300;
   font-family: sans-serif;
-  color: rgb(31, 0, 49);
+  color: rgb(190, 190, 190);
   margin: 1rem;
   padding: 0.5rem;
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(23, 0, 36);
+  border-radius: 3%;
 }/*# sourceMappingURL=styles.css.map */

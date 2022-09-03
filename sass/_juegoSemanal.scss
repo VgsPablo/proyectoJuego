@@ -11,12 +11,41 @@
     flex-direction: column;
     text-align: center;
     div{
+        h1{
+            background-color: $fondotitulos;
+            font-size: larger;
+            color: $colortitulos;
+            border-radius: 2%;
+            padding: 1%;
+        }
         h2{
             background-color: $fondotitulos;
             font-size: larger;
+            color: $colortitulos;
+            border-radius: 2%;
+            padding: 1%;
         }
         h3{
-            @include sizes (10px, 0 15% 0 15%)
+            margin: 10px;
+            padding: 0% 15% 0% 15%;
+            font-size: large;
+            font-weight: 300;
+            font-family: sans-serif;
+            color: $colortitulos;
+            background-color: $fondotitulos;
+            border-radius: 2%;
+            padding: 2%;
+        }
+        h4{
+            margin: 10px;
+            padding: 0% 15% 0% 15%;
+            font-size: large;
+            font-weight: 300;
+            font-family: sans-serif;
+            color: $colortitulos;
+            background-color: $fondotitulos;
+            border-radius: 2%;
+            padding: 2%;
         }
     }
 }
